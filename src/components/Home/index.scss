@@ -15,8 +15,10 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    
 
     &:before {
+      display: none;
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
@@ -37,6 +39,7 @@
       margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
+      display: none;
     }
 
     img {
