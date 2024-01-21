@@ -12,9 +12,9 @@ const Home = () => {
           <img src={LogoTitle} alt="developer" />
           Nicc
           <br />
-          web developer
+          Web Developer
         </h1>
-        <h2>Frontend Developer | JavaScript Scripter | Entrepreneur </h2>
+        <h2>Frontend Developer | JavaScript Scripter | Freelancer </h2>
         <Link to="/contact" className='flat-button'>CONTACT ME</Link>
       </div>
     </div>
