@@ -2,6 +2,7 @@
 import './App.scss';
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout';
+import Home from '../src/components/Home'
 
 
 function App(){
@@ -9,8 +10,12 @@ function App(){
 
     <>
     <Routes>
-      <Route path="/" element={<Layout/>} />
+      <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      </Route>
     </Routes>
+
+
     </>
 
   )
