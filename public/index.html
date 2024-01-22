@@ -44,13 +44,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function(){
-      emailjs.init(yjjrKW2SJ0nv81sid)
-    })
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+ const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm('service_f81gfes', 'template_64te6of', form.current, 'yjjrKW2SJ0nv81sid')
+    .then(
+      () => {
+        alert('Message successfully sent!');
+        window.location.reload(false);
+      },
+      () => {
+        alert('Failed to send the message, please try again');
+      }
+    );
+};
+
+</script>
+
   </body>
 </html>

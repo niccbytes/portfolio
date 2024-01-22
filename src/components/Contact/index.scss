@@ -1,15 +1,16 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 
   ul {
     padding: 0;
     margin: 0;
+    list-style: none;
 
     li {
-      padding: 0;
-      margin: 0;
-      list-style: none;
+      width: 100%; /* Set width to 100% for full width on small screens */
       margin-bottom: 10px;
       opacity: 0;
       overflow: hidden;
@@ -46,14 +47,18 @@
 
   textarea {
     width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
     border: 0;
     background: #115173;
     height: 50px;
     font-size: 16px;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     min-height: 150px;
+    flex: 1;
+    padding-right: 20px;
   }
 
   .flat-button {
@@ -63,13 +68,11 @@
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #ffd700;
-    float: left;
     border-radius: 4px;
     background: 0 0;
     text-transform: uppercase;
-    float: right;
-    text-align: center;
     margin-right: 10px;
+    
   }
 }
 
@@ -79,6 +82,8 @@
   width: 53%;
   height: 115%;
   margin-top: -3%;
+  flex: 1;
+  position: relative;
 }
 
 .leaflet-container {
