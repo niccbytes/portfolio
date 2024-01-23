@@ -8,6 +8,44 @@
     max-height: 90%;
   }
 
+  .resume-section {
+    position: absolute;
+    right: 15%; // Adjusted the right distance
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 600px;
+      height: auto;
+      opacity: 0;
+      animation: floatIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+
+    button {
+      background-color: #ffd700;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 20px;
+      border: none;
+      margin-left: 20px; // Adjusted the left margin
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #333;
+        color: #ffd700;
+      }
+    }
+  }
+
+
+
+
   h1 {
     color: #fff;
     font-size: 56px;
@@ -83,3 +121,14 @@
   }
 }
 
+
+@keyframes floatIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
