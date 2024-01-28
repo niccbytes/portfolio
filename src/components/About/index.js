@@ -33,14 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          Coding has always been in the back of my mind ever since I was a student in high school, but I had never considered it as a career until I started to experience the grueling summer heat here in Texas, hahaha. As a subcontractor working for my Dad's company for nearly 7 years and seeing the amount of problems I solve on a day-to-day basis, I soon came to realize that maybe coding and web development may be the place for me.
+
+          I decided to take an online bootcamp through Rice University here locally in Houston, and although it was fast-paced and it was something I didn't look forward to doing all the time after long hours out in the field, I stuck with it and I'm more than happy to say I did! I learned many things in a short amount of time, and now that I have completed that course, I am trying to implement the things I have learned in real-world projects and think of innovative ways to make the world an easier and better place!
+
+          I'm excited for a full-time career in software engineering and am open to any and all criticism that might help me learn and grow as a developer.
           </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my skills as a developer.
-          </p>
+      
    
         </div>
 
