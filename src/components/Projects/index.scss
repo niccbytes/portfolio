@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  padding: 20px;
-  margin-top: 100px;
-  margin-left: 95px;
+  padding: 0%;
+  margin-top: auto;
+  margin-left: 5%;
+  overflow: auto;
 }
 
 .project-item {
@@ -34,8 +35,8 @@
 
   img {
     width: 100%; /* Make the image fill its container */
-    height: 420px; /* Adjust height*/
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    height: 270px; /* Adjust height*/
+    object-fit: auto; /* Maintain aspect ratio and cover the container */
   }
 }
 

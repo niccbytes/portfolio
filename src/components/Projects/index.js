@@ -3,6 +3,9 @@ import './index.scss';
 import GrocerEZImage from '../../assets/images/grocerEZ.png';
 import BictorfyImage from '../../assets/images/bictorfylogo.JPG';
 import SnakeGameImage from '../../assets/images/snakegame.png';
+import WeatherAppImage from '../../assets/images/weatherapp.png';
+import JsQuizImage from '../../assets/images/jsquiz.png';
+import RoadSideImage from '../../assets/images/roadside.png'
 
 const projectsData = [
   {
@@ -22,6 +25,24 @@ const projectsData = [
     description: 'simple snake game',
     image: SnakeGameImage,
     link: 'https://niccbytes.github.io/snakegame/',
+  },
+  {
+    title: 'weather app',
+    description: 'weather application that uses RESTFUL apis to pull weather from around the world',
+    image: WeatherAppImage,
+    link: 'https://niccbytes.github.io/weather-app/',
+  },
+  {
+    title: 'JS Quiz',
+    description: 'java script quiz that uses local storage and a timer functionality',
+    image: JsQuizImage,
+    link: 'https://niccbytes.github.io/JS-Quiz/',
+  },
+  {
+    title: 'Roadside Racks Website',
+    description: 'Website in the works for my personal business! not fully deployed or near finished but excited for this one!',
+    image: RoadSideImage,
+    link: 'https://github.com/niccbytes/roadsideracks',
   },
 ];
 
