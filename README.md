@@ -24,4 +24,4 @@ my index.html is inside of a public folder and github pages can not read it i am
 
 https://github.com/niccbytes/portfolio
 
-https://youtu.be/RAnhb3gOhUw 
+https://silly-piroshki-53ac62.netlify.app/
