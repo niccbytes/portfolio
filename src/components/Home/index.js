@@ -15,18 +15,18 @@ const Home = () => {
           <br />
           Web Developer
         </h1>
-        <h2>Frontend Developer | JavaScript Scripter | Entrepreneur </h2>
+        <h2>Frontend Developer | JavaScript Scripter | React </h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
       </div>
       <div className="resume-section">
         <a
-          href="../../assets/images/resume1.png" // Replace with the correct path or URL for your resume
-          download="Nicc_Resume"
+          href="https://docs.google.com/document/d/17wPcZOs1kt0j2ouRBN95u1cbnqHuMCb3jJ_FA7iPEaA/edit?usp=sharing" // Replace with the URL to your hosted resume
+          download="Nicc_Resume.pdf"
         >
           <img src={ResumeIcon} alt="resume" />
-          <button>Download Resume</button>
+          <button>View Resume</button>
         </a>
       </div>
     </div>
